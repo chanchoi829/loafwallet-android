@@ -5,9 +5,9 @@ import com.breadwallet.entities.Country
 import com.breadwallet.presenter.base.BasePresenter
 import com.breadwallet.tools.util.NO_ERROR
 import com.breadwallet.tools.util.noError
-import org.litecoin.partnerapi.callback.RegisterCallback
-import org.litecoin.partnerapi.model.User
-import org.litecoin.partnerapi.network.UserClient
+import org.favcoin.partnerapi.callback.RegisterCallback
+import org.favcoin.partnerapi.model.User
+import org.favcoin.partnerapi.network.UserClient
 import javax.inject.Inject
 
 /** Litewallet

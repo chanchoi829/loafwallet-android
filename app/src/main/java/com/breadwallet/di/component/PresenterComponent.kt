@@ -3,7 +3,7 @@ package com.breadwallet.di.component
 import com.breadwallet.presenter.spend.LoginPresenter
 import com.breadwallet.presenter.spend.RegisterPresenter
 import dagger.Component
-import org.litecoin.partnerapi.di.module.NetworkModule
+import org.favcoin.partnerapi.di.module.NetworkModule
 import javax.inject.Singleton
 
 /** Litewallet

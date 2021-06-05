@@ -4,8 +4,8 @@ import com.breadwallet.BreadApp
 import com.breadwallet.R
 import com.breadwallet.presenter.base.BasePresenter
 import com.breadwallet.tools.manager.BRSharedPrefs
-import org.litecoin.partnerapi.callback.LoginCallback
-import org.litecoin.partnerapi.network.AuthClient
+import org.favcoin.partnerapi.callback.LoginCallback
+import org.favcoin.partnerapi.network.AuthClient
 import javax.inject.Inject
 
 /** Litewallet
