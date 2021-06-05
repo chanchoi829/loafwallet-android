@@ -4,7 +4,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'com.google.gms.google-services'
-
+apply plugin: 'com.android.application'
 apply plugin: 'com.google.firebase.crashlytics'
 
 configurations {
@@ -217,6 +217,10 @@ dependencies {
     implementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     // add the Firebase SDK for Google Analytics
+    // favcoin
+    implementation platform('com.google.firebase:firebase-bom:28.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
+
     implementation 'com.google.firebase:firebase-analytics:18.0.0'
 
     // Firebase Crashlytics.
